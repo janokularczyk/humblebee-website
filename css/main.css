@@ -607,3 +607,257 @@ body {
 
     color: #FFFFFF;
 }
+
+#trending-txt {
+    position: absolute;
+    width: 147px;
+    height: 16px;
+    left: 537px;
+    top: 64px;
+
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#borderlands-txt {
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    left: 537px;
+    top: 102px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#elden-ring-txt {
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    left: 537px;
+    top: 135px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#valheim-txt {
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    left: 537px;
+    top: 168px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#minecraft-txt {
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    left: 537px;
+    top: 201px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#monster-txt {
+    position: absolute;
+    width: 173px;
+    height: 21px;
+    left: 537px;
+    top: 234px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#bundles-txt {
+    position: absolute;
+    width: 90px;
+    height: 16px;
+    left: 754px;
+    top: 64px;
+
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#humble-txt {
+    position: absolute;
+    width: 114px;
+    height: 19px;
+    left: 754px;
+    top: 102px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#monthly-txt {
+    position: absolute;
+    width: 114px;
+    height: 19px;
+    left: 754px;
+    top: 135px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#software-txt {
+    position: absolute;
+    width: 114px;
+    height: 19px;
+    left: 754px;
+    top: 168px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#e-books-txt {
+    position: absolute;
+    width: 114px;
+    height: 19px;
+    left: 754px;
+    top: 201px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#games-footer-txt {
+    position: absolute;
+    width: 114px;
+    height: 19px;
+    left: 754px;
+    top: 234px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.social {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 64px;
+
+    background: linear-gradient(219.12deg, #C4C4C4 22.43%, rgba(196, 196, 196, 0) 91.15%);
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+#instagram {
+    left: 1055px;
+}
+
+#linkedin {
+    left: 1115px;
+}
+
+#twitter {
+    left: 1175px;
+}
+
+#facebook {
+    left: 1235px;
+}
+
+#bee {
+    left: 1295px
+}
+
+#community-txt {
+    position: absolute;
+    width: 269px;
+    height: 82px;
+    left: 1064px;
+    top: 128px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+#footnote {
+    position: absolute;
+    width: 558px;
+    height: 33px;
+    left: 524px;
+    top: 316px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
