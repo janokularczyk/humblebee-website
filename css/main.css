@@ -39,7 +39,7 @@ body {
     background: url(/media/layout/charity_money.svg);
 }
 
-#currently-txt {
+#charity-txt {
     position: absolute;
     width: 391px;
     height: 41px;
@@ -98,12 +98,54 @@ body {
     color: #FFFFFF;
 }
 
+#copies-sold {
+    position: absolute;
+    left: 4.31%;
+    right: 82.99%;
+    top: 29.03%;
+    bottom: 66.54%;
+
+    background: url(/media/basic/copies_sold.svg);
+}
+
+#total-copies {
+    position: absolute;
+    width: 1097px;
+    height: 169px;
+    left: 266px;
+    top: 1143px;
+
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 182px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#copies-txt {
+    position: absolute;
+    width: 851px;
+    height: 65px;
+    left: 693px;
+    top: 1300px;
+
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+
+    color: #CFA911;
+}
+
 #top-txt {
     position: absolute;
     width: 321px;
     height: 18px;
-    left: 46px;
-    top: 1091px;
+    left: 47px;
+    top: 1429px;
 
     font-size: 32px;
     line-height: 39px;
@@ -118,8 +160,8 @@ body {
     position: absolute;
     width: 298px;
     height: 168px;
-    left: 53px;
-    top: 1126px;
+    left: 54px;
+    top: 1464px;   
 
     background: url(/media/bundles/wiesmin_bundle.png);
     border-radius: 15px;
@@ -129,8 +171,8 @@ body {
     position: absolute;
     width: 298px;
     height: 168px;
-    left: 397px;
-    top: 1126px;
+    left: 398px;
+    top: 1464px;
 
     background: url(/media/bundles/elden_ring_bundle.png);
     border-radius: 15px;
@@ -140,8 +182,8 @@ body {
     position: absolute;
     width: 298px;
     height: 168px;
-    left: 741px;
-    top: 1126px;
+    left: 742px;
+    top: 1464px;
 
     background: url(/media/bundles/squad_bundle.png);
     border-radius: 15px;
@@ -151,8 +193,8 @@ body {
     position: absolute;
     width: 298px;
     height: 168px;
-    left: 1085px;
-    top: 1126px;
+    left: 1086px;
+    top: 1464px;
 
     background: url(/media/bundles/me_bundle.png);
     border-radius: 15px;
@@ -162,8 +204,8 @@ body {
     position: absolute;
     width: 1330px;
     height: 356px;
-    left: 54px;
-    top: 1364px;
+    left: 55px;
+    top: 1702px;
 
     background: url(/media/layout/about_us.png)
 }
@@ -172,8 +214,8 @@ body {
     position: absolute;
     width: 1327px;
     height: 442px;
-    left: 55px;
-    top: 1804px;
+    left: 56px;
+    top: 2142px;
 
     background: url(/media/layout/humble_choice.jpg);
     background-size: cover;
@@ -184,8 +226,8 @@ body {
     position: absolute;
     width: 723px;
     height: 122px;
-    left: 358px;
-    top: 2306px;
+    left: 359px;
+    top: 2644px;
 
     background: linear-gradient(119.68deg, #F7C930 31.85%, rgba(247, 201, 48, 0.984375) 31.86%, rgba(247, 201, 48, 0) 136.22%);
     filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
@@ -206,8 +248,8 @@ body {
     position: absolute;
     width: 466px;
     height: 77px;
-    left: 523px;
-    top: 2328px;
+    left: 524px;
+    top: 2666px;   
 
     font-weight: 700;
     font-size: 40px;
@@ -223,8 +265,8 @@ body {
     position: absolute;
     width: 153px;
     height: 54px;
-    left: 50px;
-    top: 2485px;
+    left: 47px;
+    top: 2823px;
 
     font-size: 32px;
     line-height: 39px;
@@ -239,8 +281,8 @@ body {
     position: absolute;
     width: 589px;
     height: 287px;
-    left: 59px;
-    top: 2539px;
+    left: 60px;
+    top: 2877px;
 
     background: url(/media/games/borderlands.jpg);
     background-size: cover;
@@ -252,8 +294,8 @@ body {
     position: absolute;
     width: 336px;
     height: 287px;
-    left: 684px;
-    top: 2539px;
+    left: 685px;
+    top: 2877px;
 
     background: url(/media/games/anomaly.jpg);
     background-size: cover;
@@ -265,8 +307,8 @@ body {
     position: absolute;
     width: 327px;
     height: 287px;
-    left: 1055px;
-    top: 2539px;
+    left: 1056px;
+    top: 2877px;
 
     background: url(/media/games/minecraft.webp);
     background-size: cover;
@@ -278,8 +320,8 @@ body {
     position: absolute;
     width: 241px;
     height: 239px;
-    left: 55px;
-    top: 2858px;
+    left: 56px;
+    top: 3196px;
 
     background: url(/media/games/dusk.jpg);
     background-size: cover;
@@ -291,8 +333,8 @@ body {
     position: absolute;
     width: 241px;
     height: 239px;
-    left: 326px;
-    top: 2858px;
+    left: 327px;
+    top: 3196px;
 
     background: url(/media/games/wonderlands.jpg);
     background-size: cover;
@@ -304,8 +346,8 @@ body {
     position: absolute;
     width: 240px;
     height: 239px;
-    left: 598px;
-    top: 2858px;
+    left: 599px;
+    top: 3196px;
 
     background: url(/media/games/valheim.jpg);
     background-size: cover;
@@ -317,8 +359,8 @@ body {
     position: absolute;
     width: 241px;
     height: 239px;
-    left: 869px;
-    top: 2858px;
+    left: 870px;
+    top: 3196px;
 
     background: url(/media/games/warlock.jpg);
     background-size: cover;
@@ -330,8 +372,8 @@ body {
     position: absolute;
     width: 241px;
     height: 239px;
-    left: 1140px;
-    top: 2858px;
+    left: 1141px;
+    top: 3196px;   
 
     background: url(/media/games/cyberpunk.jpg);
     background-size: cover;
@@ -344,7 +386,8 @@ body {
     width: 1440px;
     height: 370px;
     left: 0px;
-    top: 3189px;
+    top: 3513px;
+
 
     background: rgba(47, 51, 61, 0.8);
 }
