@@ -21,12 +21,81 @@ body {
 
 #logo-bee {
     position: absolute;
-    left: 17.83%;
-    right: 18.17%;
-    top: 22.67%;
-    bottom: 19%;
+    width: 105.6px;
+    height: 96.25px;
+    left: 10%;
 
     background: url(/media/basic/logo_bee_10.svg);
+    background-size: cover;
+}
+
+#switch {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 320px;
+    top: 28px;
+
+    background: url(/media/basic/switch.png);
+    background-size: cover;
+}
+
+#menu-txt {
+    position: absolute;
+    width: 710px;
+    height: 48px;
+    left: 402px;
+    top: 45px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#log-out {
+    position: absolute;
+    width: 85px;
+    height: 39px;
+    left: 1192px;
+    top: 44px;
+
+    background: linear-gradient(180deg, #FFD029 0%, rgba(255, 208, 41, 0.472712) 58.85%, rgba(255, 208, 41, 0.104167) 99.99%, rgba(255, 208, 41, 0.27) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+#log-out-txt {
+    position: absolute;
+    width: 72px;
+    height: 20px;
+    left: 1198px;
+    top: 52px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#account {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    right: 4.51%;
+    right: 65px;
+    top: 21px;
+    bottom: 21px;
+
+    background: url(/media/basic/profile_icon.png);
+    background-size: cover;
+    border-radius: 50%;
 }
 
 .charity-money {
@@ -100,12 +169,13 @@ body {
 
 #copies-sold {
     position: absolute;
-    left: 4.31%;
-    right: 82.99%;
-    top: 29.03%;
-    bottom: 66.54%;
+    width: 183px;
+    height: 172px;
+    left: 75px;
+    top: 1143px;
 
     background: url(/media/basic/copies_sold.svg);
+    background-size: cover;
 }
 
 #total-copies {
