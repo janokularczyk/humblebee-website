@@ -24,6 +24,7 @@ body {
     width: 105.6px;
     height: 96.25px;
     left: 10%;
+    top: 10px;
 
     background: url(/media/basic/logo_bee_10.svg);
     background-size: cover;
@@ -35,6 +36,7 @@ body {
     height: 77px;
     left: 320px;
     top: 28px;
+    bottom: 26px;
 
     background: url(/media/basic/switch.png);
     background-size: cover;
@@ -129,8 +131,8 @@ body {
     position: absolute;
     width: 595px;
     height: 44px;
-    left: 75px;
-    top: 494px;
+    left: 169px;
+    top: 498px;
 
     font-size: 64px;
     line-height: 77px;
@@ -306,12 +308,14 @@ body {
 
 #join-us {
     position: absolute;
-    left: 4%;
-    right: 4%;
-    top: 4%;
-    bottom: 4%;
+    width: 73.6px;
+    height: 73.6px;
+    left: 67.2px;
+    top: 24.2px;
+    bottom: 24.2px;
 
     background: url(/media/basic/join_us.svg);
+    background-size: cover;
 }
 
 #show-txt {
