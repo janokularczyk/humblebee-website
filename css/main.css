@@ -465,3 +465,145 @@ body {
 
     background: rgba(47, 51, 61, 0.8);
 }
+
+#footer-logo {
+    position: absolute;
+    width: 105.6px;
+    height: 96.25px;
+    left: 64px;
+    top: 21.4px;
+    bottom: 252.35px;
+
+    background: url(/media/basic/logo_bee_10.svg);
+    background-size: cover;
+}
+
+#get-txt {
+    position: absolute;
+    left: 60px;
+    top: 144.95px;
+    bottom: 189.03px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#invite-txt {
+    position: absolute;
+    width: 179px;
+    height: 19px;
+    left: 60px;
+    top: 219px;
+
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #ECBE08;
+}
+
+#about-txt {
+    position: absolute;
+    width: 54px;
+    height: 15px;
+    left: 392px;
+    top: 64px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#blog-txt {
+    position: absolute;
+    width: 36px;
+    height: 21px;
+    left: 390px;
+    top: 102px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#support-txt {
+    position: absolute;
+    width: 61px;
+    height: 17px;
+    left: 390px;
+    top: 135px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#faq-txt {
+    position: absolute;
+    width: 56px;
+    height: 23px;
+    left: 390px;
+    top: 169px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#developers-txt {
+    position: absolute;
+    width: 89px;
+    height: 19px;
+    left: 390px;
+    top: 200px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#charity-footer-txt {
+    position: absolute;
+    width: 75px;
+    height: 17px;
+    left: 390px;
+    top: 229px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
