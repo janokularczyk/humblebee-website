@@ -110,6 +110,21 @@ body {
     background: url(/media/layout/charity_money.svg);
 }
 
+#counter {
+    position: absolute;
+    width: 72px;
+    height: 20px;
+    left: 175px;
+    top: 280px;
+
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
 #charity-txt {
     position: absolute;
     width: 391px;
@@ -140,6 +155,17 @@ body {
     align-items: center;
 
     color: #FCCD2B;
+}
+
+#quote-1 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 16px;
+    top: 64px;
+
+    background: url(/media/basic/quote.svg);
+    background-size: cover;
 }
 
 .charities {
@@ -195,6 +221,17 @@ body {
     text-align: center;
 
     color: #FFFFFF;
+}
+
+#quote-2 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 599px;
+    top: 1333px;
+
+    background: url(/media/basic/quote.svg);
+    background-size: cover;
 }
 
 #copies-txt {
