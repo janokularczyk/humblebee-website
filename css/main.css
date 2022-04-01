@@ -818,20 +818,74 @@ body {
     left: 1055px;
 }
 
+#instagram-icon {
+    position: absolute;
+    width: 35.2px;
+    height: 35.2px;
+    left: 1062.4px;
+    top: 71.4px;
+
+    background: url(/media/social/instagram.svg);
+    background-size: cover;
+}
+
 #linkedin {
     left: 1115px;
+}
+#linkedin-icon {
+    position: absolute;
+    width: 33.6px;
+    height: 33.6px;
+    left: 1123.2px;
+    top: 71.2px;
+
+    background: url(/media/social/linkedin.svg);
+    background-size: cover;
 }
 
 #twitter {
     left: 1175px;
 }
 
+#twitter-icon {
+    position: absolute;
+    width: 40px;
+    height: 37px;
+    left: 1180px;
+    top: 70px;
+
+    background: url(/media/social/twitter.svg);
+    background-size: cover;
+}
+
 #facebook {
     left: 1235px;
 }
 
+#facebook-icon {
+    position: absolute;
+    width: 33.6px;
+    height: 33.6px;
+    left: 1243.2px;
+    top: 72.2px;
+
+    background: url(/media/social/facebook.svg);
+    background-size: cover;
+}
+
 #bee {
     left: 1295px
+}
+
+#bee-icon {
+    position: absolute;
+    width: 36px;
+    height: 31.4px;
+    left: 1302.4px;
+    top: 70px;
+
+    background: url(/media/social/bee.svg);
+    background-size: cover;
 }
 
 #community-txt {
