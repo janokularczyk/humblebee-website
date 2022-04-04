@@ -79,6 +79,7 @@ body {
     top: 44.6px;
 
     background: url(/media/basic/cart.svg);
+    background-size: cover;
 }
 
 #account {
@@ -95,7 +96,516 @@ body {
     border-radius: 50%;
 }
 
+#humble-choice {
+    position: absolute;
+    width: 1336px;
+    height: 487px;
+    left: 56px;
+    top: 162px;
 
+    background: url(/media/layout/humble_choice.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#best-txt {
+    position: absolute;
+    width: 321px;
+    height: 18px;
+    left: 57px;
+    top: 676px;
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#deal-1 {
+    position: absolute;
+    width: 298px;
+    height: 168px;
+    left: 50px;
+    top: 711px;
+
+    background: url(/media/games/farcry.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#deal-2 {
+    position: absolute;
+    width: 298px;
+    height: 168px;
+    left: 397px;
+    top: 711px;
+
+    background: url(/media/bundles/wiesmin_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#deal-3 {
+    position: absolute;
+    width: 298px;
+    height: 168px;
+    left: 742px;
+    top: 711px;
+
+    background: url(/media/layout-bundles-page/books-bundle/B3_bundle.png);
+    border-radius: 15px;
+}
+
+#deal-4 {
+    position: absolute;
+    width: 295px;
+    height: 168px;
+    left: 1086px;
+    top: 711px;
+
+    background: url(/media/bundles/elden_ring_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#bundles-txt {
+    position: absolute;
+    width: 321px;
+    height: 18px;
+    top: 990px;
+    left: 57px;
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#bundle-1 {
+    position: absolute;
+    width: 422px;
+    height: 239px;
+    left: 50px;
+    top: 1044px;
+
+    background: url(/media/layout-bundles-page/games-bundle/G1_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#bundle-2 {
+    position: absolute;
+    width: 413px;
+    height: 239px;
+    left: 514px;
+    top: 1044px;
+
+    background: url(/media/layout-bundles-page/games-bundle/G2_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#bundle-3 {
+    position: absolute;
+    width: 413px;
+    height: 237px;
+    left: 968px;
+    top: 1044px;
+
+    background: url(/media/layout-bundles-page/games-bundle/G4_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#bundle-4 {
+    position: absolute;
+    width: 422px;
+    height: 239px;
+    left: 50px;
+    top: 1321px;
+
+    background: url(/media/layout-bundles-page/books-bundle/B2_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#bundle-5 {
+    position: absolute;
+    width: 422px;
+    height: 239px;
+    left: 514px;
+    top: 1321px;
+
+    background: url(/media/layout-bundles-page/software-bundle/S1_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#bundle-6 {
+    position: absolute;
+    width: 422px;
+    height: 239px;
+    left: 968px;
+    top: 1321px;
+
+    background: url(/media/layout-bundles-page/software-bundle/S2_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#bundle-7 {
+    position: absolute;
+    width: 422px;
+    height: 239px;
+    left: 50px;
+    top: 1599px;
+
+    background: url(/media/layout-bundles-page/games-bundle/G3_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#bundle-8 {
+    position: absolute;
+    width: 422px;
+    height: 239px;
+    left: 512px;
+    top: 1599px;
+
+    background: url(/media/layout-bundles-page/books-bundle/B1_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#bundle-9 {
+    position: absolute;
+    width: 422px;
+    height: 239px;
+    left: 968px;
+    top: 1599px;
+
+    background: url(/media/layout-bundles-page/games-bundle/G5_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.about-us {
+    position: absolute;
+    width: 1330px;
+    height: 356px;
+    left: 51px;
+    top: 1866px;
+
+    background: url(/media/layout/about_us.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#games-txt {
+    position: absolute;
+    width: 153px;
+    height: 54px;
+    left: 57px;
+    top: 2222px;
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#view-1 {
+    position: absolute;
+    width: 174.2px;
+    height: 24.36px;
+    left: 1202px;
+    top: 2236px;
+
+    color: #0085FF;
+}
+
+#borderlands {
+    position: absolute;
+    width: 589px;
+    height: 287px;
+    left: 54px;
+    top: 2276px;
+
+    background: url(/media/games/borderlands.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#anomaly {
+    position: absolute;
+    width: 336px;
+    height: 287px;
+    left: 679px;
+    top: 2276px;
+
+    background: url(/media/games/anomaly.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#minecraft {
+    position: absolute;
+    width: 327px;
+    height: 287px;
+    left: 1050px;
+    top: 2276px;
+
+    background: url(/media/games/minecraft.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#dusk {
+    position: absolute;
+    width: 241px;
+    height: 239px;
+    left: 50px;
+    top: 2595px;
+
+    background: url(/media/games/dusk.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#wonderlands {
+    position: absolute;
+    width: 241px;
+    height: 239px;
+    left: 321px;
+    top: 2595px;
+
+    background: url(/media/games/wonderlands.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#valheim {
+    position: absolute;
+    width: 240px;
+    height: 239px;
+    left: 593px;
+    top: 2595px;
+
+    background: url(/media/games/valheim.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#warlock {
+    position: absolute;
+    width: 241px;
+    height: 239px;
+    left: 864px;
+    top: 2595px;
+
+    background: url(/media/games/warlock.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#cyberpunk {
+    position: absolute;
+    width: 241px;
+    height: 239px;
+    left: 1135px;
+    top: 2595px;
+
+    background: url(/media/games/cyberpunk.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#e-books-txt {
+    position: absolute;
+    width: 321px;
+    height: 18px;
+    left: 57px;
+    top: 2955px;
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+} 
+
+#view-2 {
+    position: absolute;
+    width: 174.2px;
+    height: 24.36px;
+    left: 1207px;
+    top: 2949px;
+
+    color: #0085FF;
+}
+
+#e-book-1 {
+    position: absolute;
+    width: 294px;
+    height: 168px;
+    left: 55px;
+    top: 2990px;
+
+    background: url(/media/layout-bundles-page/books-bundle/B6_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#e-book-2 {
+    position: absolute;
+    width: 298px;
+    height: 168px;
+    left: 394px;
+    top: 2990px;
+
+    background: url(/media/layout-bundles-page/books-bundle/B3_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#e-book-3 {
+    position: absolute;
+    width: 298px;
+    height: 168px;
+    left: 739px;
+    top: 2990px;
+
+    background: url(/media/layout-bundles-page/books-bundle/B4_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#e-book-4 {
+    position: absolute;
+    width: 298px;
+    height: 168px;
+    left: 1083px;
+    top: 2990px;
+
+    background: url(/media/layout-bundles-page/books-bundle/B5_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#software-txt {
+    position: absolute;
+    width: 321px;
+    height: 18px;
+    left: 54px;
+    top: 3198px;
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#view-3 {
+    position: absolute;
+    width: 174.2px;
+    height: 24.36px;
+    left: 1207px;
+    top: 3192px;
+
+    color: #0085FF;
+}
+
+#software-1 {
+    position: absolute;
+    width: 294px;
+    height: 168px;
+    left: 55px;
+    top: 3233px;
+
+    background: url(/media/layout-bundles-page/software-bundle/S3_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#software-2 {
+    position: absolute;
+    width: 297px;
+    height: 168px;
+    left: 394px;
+    top: 3233px;
+
+    background: url(/media/layout-bundles-page/software-bundle/S4_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#software-3 {
+    position: absolute;
+    width: 298px;
+    height: 168px;
+    left: 739px;
+    top: 3233px;
+
+    background: url(/media/layout-bundles-page/software-bundle/S6_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#software-4 {
+    position: absolute;
+    width: 298px;
+    height: 168px;
+    left: 1083px;
+    top: 3233px;
+
+    background: url(/media/layout-bundles-page/software-bundle/S5_bundle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
 
 .footer {
     position: absolute;
@@ -103,7 +613,6 @@ body {
     height: 370px;
     left: 0px;
     top: 3513px;
-
 
     background: rgba(47, 51, 61, 0.8);
 }
@@ -350,7 +859,7 @@ body {
     color: #FFFFFF;
 }
 
-#bundles-txt {
+#bundles-footer-txt {
     position: absolute;
     width: 90px;
     height: 16px;
@@ -397,7 +906,7 @@ body {
     color: #FFFFFF;
 }
 
-#software-txt {
+#software-footer-txt {
     position: absolute;
     width: 114px;
     height: 19px;
@@ -413,7 +922,7 @@ body {
     color: #FFFFFF;
 }
 
-#e-books-txt {
+#e-books-footer-txt {
     position: absolute;
     width: 114px;
     height: 19px;
