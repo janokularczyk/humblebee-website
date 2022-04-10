@@ -1,0 +1,801 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: #404040;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.menu-bar {
+    position: absolute;
+    width: 1440px;
+    height: 131px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, #ECC31E 0%, #D486E8 0.01%, #ECBE08 0.02%, rgba(134, 133, 133, 0) 100%);
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+#logo-bee {
+    position: absolute;
+    width: 105.6px;
+    height: 96.25px;
+    left: 10%;
+    top: 10px;
+
+    background: url(/media/basic/logo_bee_10.svg);
+    background-size: cover;
+}
+
+#switch {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 320px;
+    top: 28px;
+    bottom: 26px;
+
+    background: url(/media/basic/switch.png);
+    background-size: cover;
+}
+
+#menu-txt {
+    position: absolute;
+    width: 710px;
+    height: 48px;
+    left: 402px;
+    top: 45px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#log-out {
+    position: absolute;
+    width: 85px;
+    height: 39px;
+    left: 1192px;
+    top: 44px;
+
+    background: linear-gradient(180deg, #FFD029 0%, rgba(255, 208, 41, 0.472712) 58.85%, rgba(255, 208, 41, 0.104167) 99.99%, rgba(255, 208, 41, 0.27) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+#log-out-txt {
+    position: absolute;
+    width: 72px;
+    height: 20px;
+    left: 1198px;
+    top: 52px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#account {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    right: 4.51%;
+    right: 65px;
+    top: 21px;
+    bottom: 21px;
+
+    background: url(/media/basic/profile_icon.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.prifle-layout {
+    position: absolute;
+    width: 264px;
+    height: 264px;
+    top: 209px;
+    left: 107px;
+
+    background: url(/media/basic/profile_icon.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.user-details-layout {
+    position: absolute;
+    width: 886px;
+    height: 504px;
+    top: 216px;
+    left: 500px;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+
+    color: #CFA911;
+
+    background-color: #373737;
+}
+
+#user-details-txt {
+    position: absolute;
+    width: 455px;
+    height: 42px;
+    left: 315px;
+    top: 45px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+
+    color: #CFA911;
+}
+
+#name {
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 119px;
+    top: 184px;
+}
+
+#surname {
+    position: absolute;
+    width: 314px;
+    height: 42px;
+    left: 119px;
+    top: 239px;
+}
+
+#dob {
+    position: absolute;
+    width: 314px;
+    height: 42px;
+    left: 119px;
+    top: 294px;
+}
+
+#e-mail {
+    position: absolute;
+    width: 362px;
+    height: 42px;
+    left: 119px;
+    top: 342px;
+}
+
+#column-1 {
+    position: absolute;
+    width: 6px;
+    height: 203px;
+    left: 447px;
+    top: 188px;
+
+    background: #C4C4C4;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1px;
+}
+
+#region {
+    position: absolute;
+    width: 247px;
+    height: 42px;
+    left: 560px;
+    top: 177px;
+}
+
+#country {
+    position: absolute;
+    width: 247px;
+    height: 42px;
+    left: 560px;
+    top: 232px;
+}
+
+#password {
+    position: absolute;
+    width: 220px;
+    height: 42px;
+    left: 560px;
+    top: 287px;
+}
+
+#phone {
+    position: absolute;
+    width: 326px;
+    height: 42px;
+    left: 560px;
+    top: 342px;
+}
+
+.account-layout {
+    position: absolute;
+    width: 398px;
+    height: 203px;
+    top: 516px;
+    left: 57px;
+
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #CFA911; 
+
+    background-color: #373737;
+}
+
+#account-txt {
+    position: absolute;
+    width: 176px;
+    height: 42px;
+    left: 134px;
+    top: 10px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+
+    color: #CFA911;
+}
+
+#member-since {
+    position: absolute;
+    width: 231px;
+    height: 42px;
+    left: 55px;
+    top: 76px;
+}
+
+#username {
+    position: absolute;
+    width: 231px;
+    height: 42px;
+    left: 55px;
+    top: 104px; 
+}
+
+#profile-picture {
+    position: absolute;
+    width: 231px;
+    height: 42px;
+    left: 55px;
+    top: 132px;
+}
+
+#column-2 {
+    position: absolute;
+    width: 6px;
+    height: 76px;
+    left: 291px;
+    top: 80px;
+
+    background: #C4C4C4;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1px;
+}
+
+#details {
+    position: absolute;
+    width: 83px;
+    height: 42px;
+    left: 310px;
+    top: 76px;
+}
+
+#change-1 {
+    position: absolute;
+    width: 83px;
+    height: 42px;
+    left: 310px;
+    top: 104px;
+}
+
+#change-2 {
+    position: absolute;
+    width: 83px;
+    height: 42px;
+    left: 310px;
+    top: 132px;
+}
+
+.edit-profile-layout {
+    position: absolute;
+    width: 163px;
+    height: 77px;
+    left: 1220px;
+    top: 739px;
+
+    background: linear-gradient(180deg, #FFD029 0%, rgba(255, 208, 41, 0.472712) 58.85%, rgba(255, 208, 41, 0.104167) 99.99%, rgba(255, 208, 41, 0.27) 100%);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.payment-methods-layout {
+    position: absolute;
+    width: 1329px;
+    height: 328px;
+    top: 920px;
+    left: 57px;
+
+    background-color: #373737;
+}
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 370px;
+    left: 0px;
+    top: 1465px;
+
+
+    background: rgba(47, 51, 61, 0.8);
+}
+
+#footer-logo {
+    position: absolute;
+    width: 105.6px;
+    height: 96.25px;
+    left: 64px;
+    top: 21.4px;
+    bottom: 252.35px;
+
+    background: url(/media/basic/logo_bee_10.svg);
+    background-size: cover;
+}
+
+#get-txt {
+    position: absolute;
+    left: 60px;
+    top: 144.95px;
+    bottom: 189.03px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#invite-txt {
+    position: absolute;
+    width: 179px;
+    height: 19px;
+    left: 60px;
+    top: 219px;
+
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #ECBE08;
+}
+
+#about-txt {
+    position: absolute;
+    width: 54px;
+    height: 15px;
+    left: 392px;
+    top: 64px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#blog-txt {
+    position: absolute;
+    width: 36px;
+    height: 21px;
+    left: 390px;
+    top: 102px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#support-txt {
+    position: absolute;
+    width: 61px;
+    height: 17px;
+    left: 390px;
+    top: 135px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#faq-txt {
+    position: absolute;
+    width: 56px;
+    height: 23px;
+    left: 390px;
+    top: 169px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#developers-txt {
+    position: absolute;
+    width: 89px;
+    height: 19px;
+    left: 390px;
+    top: 200px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#charity-footer-txt {
+    position: absolute;
+    width: 75px;
+    height: 17px;
+    left: 390px;
+    top: 229px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#trending-txt {
+    position: absolute;
+    width: 147px;
+    height: 16px;
+    left: 537px;
+    top: 64px;
+
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#borderlands-txt {
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    left: 537px;
+    top: 102px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#elden-ring-txt {
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    left: 537px;
+    top: 135px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#valheim-txt {
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    left: 537px;
+    top: 168px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#minecraft-txt {
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    left: 537px;
+    top: 201px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#monster-txt {
+    position: absolute;
+    width: 173px;
+    height: 21px;
+    left: 537px;
+    top: 234px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#bundles-txt {
+    position: absolute;
+    width: 90px;
+    height: 16px;
+    left: 754px;
+    top: 64px;
+
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#humble-txt {
+    position: absolute;
+    width: 114px;
+    height: 19px;
+    left: 754px;
+    top: 102px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#monthly-txt {
+    position: absolute;
+    width: 114px;
+    height: 19px;
+    left: 754px;
+    top: 135px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#software-txt {
+    position: absolute;
+    width: 114px;
+    height: 19px;
+    left: 754px;
+    top: 168px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#e-books-txt {
+    position: absolute;
+    width: 114px;
+    height: 19px;
+    left: 754px;
+    top: 201px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#games-footer-txt {
+    position: absolute;
+    width: 114px;
+    height: 19px;
+    left: 754px;
+    top: 234px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.social {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 64px;
+
+    background: linear-gradient(219.12deg, #C4C4C4 22.43%, rgba(196, 196, 196, 0) 91.15%);
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+#instagram {
+    left: 1055px;
+}
+
+#instagram-icon {
+    position: absolute;
+    width: 35.2px;
+    height: 35.2px;
+    left: 1062.4px;
+    top: 71.4px;
+
+    background: url(/media/social/instagram.svg);
+    background-size: cover;
+}
+
+#linkedin {
+    left: 1115px;
+}
+#linkedin-icon {
+    position: absolute;
+    width: 33.6px;
+    height: 33.6px;
+    left: 1123.2px;
+    top: 71.2px;
+
+    background: url(/media/social/linkedin.svg);
+    background-size: cover;
+}
+
+#twitter {
+    left: 1175px;
+}
+
+#twitter-icon {
+    position: absolute;
+    width: 40px;
+    height: 37px;
+    left: 1180px;
+    top: 70px;
+
+    background: url(/media/social/twitter.svg);
+    background-size: cover;
+}
+
+#facebook {
+    left: 1235px;
+}
+
+#facebook-icon {
+    position: absolute;
+    width: 33.6px;
+    height: 33.6px;
+    left: 1243.2px;
+    top: 72.2px;
+
+    background: url(/media/social/facebook.svg);
+    background-size: cover;
+}
+
+#bee {
+    left: 1295px
+}
+
+#bee-icon {
+    position: absolute;
+    width: 36px;
+    height: 31.4px;
+    left: 1302.4px;
+    top: 70px;
+
+    background: url(/media/social/bee.svg);
+    background-size: cover;
+}
+
+#community-txt {
+    position: absolute;
+    width: 269px;
+    height: 82px;
+    left: 1064px;
+    top: 128px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+#footnote {
+    position: absolute;
+    width: 558px;
+    height: 33px;
+    left: 524px;
+    top: 316px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
