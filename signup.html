@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Humblebee register</title>
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+<div class="register">
+    <div class="imgcontainer">
+        <img src="https://i.ibb.co/DWBsp5L/ezgif-1-93f8423fea.png.png" alt="Avatar" class="avatar">
+    </div>
+    <form method="post" th:action="@{/process_register}" th:object="${user}" >
+        <input type="text" name="u" placeholder="Username" th:field="*{username}" required="required" minlength="2" maxlength="20"/>
+        <input type="text" name="e" placeholder="Email" th:field="*{email}" required="required" />
+        <label for="p"><input type="password" name="p" id="p" placeholder="Password" th:field="*{password}" required="required" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+               title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"/>
+        </label>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
+        <p style="color: whitesmoke">By creating an account you agree to our <a href="#" style="color:rgb(135, 217, 250)">Terms & Privacy</a>.</p>
+    </form>
+    <!-- (contains Password verification) -->
+    <div id="message" style="width: fit-content;
+  height: fit-content;
+  padding-left: 35px;
+  padding-right: 35px;
+   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+        border: 1px solid rgba(0,0,0,0.3);
+        border-radius: 4px;
+        box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+        -webkit-transition: box-shadow .5s ease;
+        -moz-transition: box-shadow .5s ease;
+        -o-transition: box-shadow .5s ease;
+        -ms-transition: box-shadow .5s ease;
+        transition: box-shadow .5s ease;
+  border-radius: 18px 18px 18px 18px;">
+        <h3 style="color: whitesmoke">Password must contain the following:</h3>
+        <p id="letter" class="invalid"><b>A lowercase letter</b></p>
+        <p id="capital" class="invalid"><b>A capital (uppercase) letter</b></p>
+        <p id="number" class="invalid"><b>A number</b></p>
+        <p id="length" class="invalid"><b>Minimum 8 characters</b></p>
+    </div>
+    <script>
+
+const togglePassword = document.querySelector('#togglePassword');
+  const password = document.querySelector('#p');
+ 
+  togglePassword.addEventListener('click', function (e) {
+    // toggle the type attribute
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    // toggle the eye slash icon
+    this.classList.toggle('fa-eye-slash');
+});
+
+        var myInput = document.getElementById("p");
+        var letter = document.getElementById("letter");
+        var capital = document.getElementById("capital");
+        var number = document.getElementById("number");
+        var length = document.getElementById("length");
+
+        // When the user clicks on the password field, show the message box
+        myInput.onfocus = function () {
+            document.getElementById("message").style.display = "block";
+        }
+
+        // When the user clicks outside of the password field, hide the message box
+        myInput.onblur = function () {
+            document.getElementById("message").style.display = "none";
+        }
+
+        // When the user starts to type something inside the password field
+        myInput.onkeyup = function () {
+            // Validate lowercase letters
+            var lowerCaseLetters = /[a-z]/g;
+            if (myInput.value.match(lowerCaseLetters)) {
+                letter.classList.remove("invalid");
+                letter.classList.add("valid");
+            } else {
+                letter.classList.remove("valid");
+                letter.classList.add("invalid");
+            }
+
+            // Validate capital letters
+            var upperCaseLetters = /[A-Z]/g;
+            if (myInput.value.match(upperCaseLetters)) {
+                capital.classList.remove("invalid");
+                capital.classList.add("valid");
+            } else {
+                capital.classList.remove("valid");
+                capital.classList.add("invalid");
+            }
+
+            // Validate numbers
+            var numbers = /[0-9]/g;
+            if (myInput.value.match(numbers)) {
+                number.classList.remove("invalid");
+                number.classList.add("valid");
+            } else {
+                number.classList.remove("valid");
+                number.classList.add("invalid");
+            }
+
+            // Validate length
+            if (myInput.value.length >= 8) {
+                length.classList.remove("invalid");
+                length.classList.add("valid");
+            } else {
+                length.classList.remove("valid");
+                length.classList.add("invalid");
+            }
+        }
+    </script>
+</div>
+</body>
+</html>
