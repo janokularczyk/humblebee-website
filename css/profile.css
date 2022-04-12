@@ -130,6 +130,17 @@ body {
     background-color: #373737;
 }
 
+#user-details-icon {
+    position: absolute;
+    width: 64.4px;
+    height: 59px;
+    top: 38px;
+    left: 239.8px;
+
+    background: url(/media/layout-profile-page/user_details.svg);
+    background-size: cover;
+}
+
 #user-details-txt {
     position: absolute;
     width: 455px;
@@ -240,6 +251,17 @@ body {
     background-color: #373737;
 }
 
+#account-icon {
+    position: absolute;
+    width: 40px;
+    height: 43.3px;
+    top: 9px;
+    left: 86px;
+
+    background: url(/media/layout-profile-page/account.svg);
+    background-size: cover;
+}
+
 #account-txt {
     position: absolute;
     width: 176px;
@@ -329,8 +351,15 @@ body {
     border-radius: 15px;
 }
 
-.edit-profile-icon {
+#edit-profile-icon {
     position: absolute;
+    width: 73.94px;
+    height: 70.43px;
+    top: 4.36px;
+    left: 47.36px;
+
+    background: url(/media/layout-profile-page/edit_profile.svg);
+    background-size: cover;
 }
 
 .payment-methods-layout {
@@ -357,6 +386,28 @@ body {
     align-items: center;
 
     color: #CFA911;
+}
+
+#payment-1 {
+    position: absolute;
+    width: 135.62px;
+    height: 134.75px;
+    top: 108.25px;
+    left: 43.25px;
+
+    background: url(/media/layout-profile-page/payment.svg);
+    background-size: cover;
+}
+
+#payment-2 {
+    position: absolute;
+    width: 54.25px;
+    height: 53.9px;
+    top: 10.7px;
+    left: 403.7px;
+
+    background: url(/media/layout-profile-page/payment.svg);
+    background-size: cover;
 }
 
 #available-txt {
@@ -387,6 +438,17 @@ body {
     border-radius: 15px;
 }
 
+#paypal-1 {
+    position: absolute;
+    width: 22.8px;
+    height: 22.04px;
+    top: 3.48px;
+    left: 17.6px;
+
+    background: url(/media/layout-profile-page/paypal.svg);
+    background-size: cover;
+}
+
 #slash {
     position: absolute;
     width: 3.55px;
@@ -413,6 +475,17 @@ body {
     border-radius: 15px;
 }
 
+#mastercard-2 {
+    position: absolute;
+    width: 24.13px;
+    height: 19px;
+    top: 3px;
+    left: 17.44px;
+
+    background: url(/media/layout-profile-page/mastercard.svg);
+    background-size: cover;
+}
+
 #box-1 {
     position: absolute;
     width: 363px;
@@ -424,6 +497,17 @@ body {
     border: 2px solid rgba(45, 45, 45, 0.4);
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;    
+}
+
+#icon-1 {
+    position: absolute;
+    width: 30.4px;
+    height: 30.4px;
+    top: 6.8px;
+    left: 12.8px;
+
+    background: url(/media/layout-profile-page/paypal.svg);
+    background-size: cover;
 }
 
 #txt-1 {
@@ -454,6 +538,17 @@ body {
     border-radius: 15px;
 }
 
+#button-1-icon {
+    position: absolute;
+    width: 38.27px;
+    height: 36.46px;
+    left: 24.33px;
+    top: 4.33px;
+
+    background: url(/media/layout-profile-page/edit_profile.svg);
+    background-size: cover;
+}
+
 #box-2 {
     position: absolute;
     width: 309px;
@@ -465,6 +560,17 @@ body {
     border: 2px solid rgba(45, 45, 45, 0.4);
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
+}
+
+#icon-2 {
+    position: absolute;
+    width: 33.28px;
+    height: 28px;
+    top: 5px;
+    left: 11.36px;
+
+    background: url(/media/layout-profile-page/mastercard.svg);
+    background-size: cover;
 }
 
 #txt-2 {
@@ -553,6 +659,17 @@ body {
     border-radius: 15px;
 }
 
+#button-2-icon {
+    position: absolute;
+    width: 38.27px;
+    height: 36.46px;
+    left: 24.33px;
+    top: 4.33px;
+
+    background: url(/media/layout-profile-page/edit_profile.svg);
+    background-size: cover;
+}
+
 .payment-method {
     position: absolute;
     width: 344px;
@@ -580,6 +697,17 @@ body {
     color: #CFA911;
 }
 
+#card-icon {
+    position: absolute;
+    width: 30.04px;
+    height: 21.46px;
+    left: 247.15px;
+    top: 16.67px;
+
+    background: url(/media/layout-profile-page/credit_card.svg);
+    background-size: cover;
+}
+
 #box-payment-method {
     position: absolute;
     width: 187px;
@@ -591,6 +719,17 @@ body {
     border: 1px solid rgba(45, 45, 45, 0.4);
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
+}
+
+#box-payment-icon {
+    position: absolute;
+    width: 20.8px;
+    height: 18px;
+    top: 3px;
+    left: 6.1px;
+
+    background: url(/media/layout-profile-page/mastercard.svg);
+    background-size: cover;
 }
 
 #txt-5 {
@@ -607,6 +746,18 @@ body {
     align-items: center;
 
     color: rgba(9, 9, 9, 0.46);
+}
+
+
+#button-payment-method-icon {
+    position: absolute;
+    width: 21.75px;
+    height: 20.71px;
+    top: 3.46px;
+    left: 17.46px;
+
+    background: url(/media/layout-profile-page/edit_profile.svg);
+    background-size: cover;
 }
 
 #button-payment-method {
